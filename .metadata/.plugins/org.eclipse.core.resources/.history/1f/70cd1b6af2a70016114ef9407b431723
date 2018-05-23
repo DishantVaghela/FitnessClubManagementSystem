@@ -1,0 +1,93 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<title>Royal Stone fitness club</title>
+</head>
+<body background="background.jpg">	
+	<table align="center" width="730">
+		<tr>
+			<td valign="top" align="right">
+				<table>
+					<tr>
+						<td valign="bottom"><img src="royalstoneicon.jpg" width="50" height="70"></td>
+						<td valign="top" nowrap="nowrap"><font size="6" color="red">ROYAL STONE<BR>FITNESS CLUB</font></td>
+					</tr>
+					
+					<tr>
+						<td colspan="2"><br></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center" bgcolor="red">CONTACT</td>
+					</tr>
+					<tr>
+						<td align="right">Phone:</td>
+						<td>9845133547</td>
+					</tr>
+					<tr>
+						<td align="right">Email:</td>
+						<td>royalstone@gmail.com</td>
+					</tr>
+					<tr>
+						<td valign="top" align="right">Address:</td>
+						<td>branch1:<br>nanabazar, v.v.nagar, anand,<br>gujarat, india, asia.<br>branch2:<br>raghuveer corner, v.v.nagar, anand,<br>gujarat, india, asia.</td>
+					</tr>
+					<tr>
+						<td colspan="2"><br></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center" bgcolor="red">TIMINGS</td>
+					</tr>
+					<tr>
+						<td align="right" valign="top">Morning:</td>
+						<td valign="top">5AM to 9AM</td>
+					</tr>
+					<tr>
+						<td align="right" valign="top">Evening:</td>
+						<td valign="top">4PM to 9PM</td>
+					</tr>
+					<tr>
+						<td colspan="2"></td>
+					</tr>
+				</table>
+			</td>
+			<td rowspan="10" valign="top">
+			<hr style="vertical" size="900">
+			</td>
+			<td valign="top">
+				<form action="login_servlet" method="post">
+					<table>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center" bgcolor="red">STAFF LOGIN</td>
+						</tr>
+						<tr>
+							<td align="right">Staff Id:</td>
+							<td><input type="text" name="staff_id"></td>
+						</tr>
+						<tr>
+							<td align="right">Password:</td>
+							<td><input type="password" name="staff_password"></td>
+						</tr>
+						<tr>
+							<td colspan="2" align="center"><input type="submit" value="login"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><hr></td>
+						</tr>
+					</table>
+				</form>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

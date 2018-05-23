@@ -1,0 +1,5 @@
+#Tomcat publish data
+#Mon Apr 17 14:52:53 IST 2017
+org.eclipse.jst.jee.server\:RoyalStoneFitnessClubManagementSystem=D\:\\jigisha vaghela\\setup\\spring\\spring-tool-suite-3.8.2.RELEASE-e4.6.1-win32-x86_64\\sts-bundle\\pivotal-tc-server-developer-3.2.0.RELEASE\\base-instance\\wtpwebapps\\RoyalStoneFitnessClubManagementSystem
+org.eclipse.jst.jee.server\:sendmailservlet.zip_expanded=D\:\\jigisha vaghela\\setup\\spring\\spring-tool-suite-3.8.2.RELEASE-e4.6.1-win32-x86_64\\sts-bundle\\pivotal-tc-server-developer-3.2.0.RELEASE\\base-instance\\wtpwebapps\\sendmailservlet.zip_expanded
+org.eclipse.jst.jee.server\:learning=D\:\\jigisha vaghela\\setup\\spring\\spring-tool-suite-3.8.2.RELEASE-e4.6.1-win32-x86_64\\sts-bundle\\pivotal-tc-server-developer-3.2.0.RELEASE\\base-instance\\wtpwebapps\\learning

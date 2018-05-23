@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Royal Stone fitness club - managers</title>
+</head>
+<body>
+	<jsp:include page="services.jsp"></jsp:include>
+	<form method="post" action="ManageMembersService">
+		<table align="center" width="600">
+			<tr>
+				<td colspan="2" align="center" bgcolor="red">MANAGE MEMBERS</td>
+			</tr>
+			<tr>
+				<td align="right" valign="top">Member Id: </td>
+				<td> <input style="width: 425px; " name="textFieldMemberId"></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top">Name: </td>
+				<td><input style="width: 425px; " name="textFieldName"></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top">Aadhar Id: </td>
+				<td> <input style="width: 425px; " name="textFieldAadharId"></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top">Contact Number: </td>
+				<td><input style="width: 425px; " name="textFieldContactNumber"></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top">E-Mail Address: </td>
+				<td><input style="width: 425px; " name="textFieldEMailAddress"></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top">Home Address: </td>
+				<td> <input style="width: 425px; " name="textFieldHomeAddress"></td>
+			</tr>
+			<tr>
+				<td align="right" valign="top">Package Id: </td>
+				<td><input style="width: 425px; " name="textFieldPackageId"></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center" >
+				<input type="submit" value="add" name="buttonAdd">
+				<input type="submit" value="update" name="buttonUpdate">
+				<input type="submit" value="remove" name="buttonRemove"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

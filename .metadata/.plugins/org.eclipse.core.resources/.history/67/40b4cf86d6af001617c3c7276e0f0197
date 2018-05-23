@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Royal Stone fitness club - information</title>
+</head>
+<body>
+	<jsp:include page="services.jsp"></jsp:include>
+	<form><table align="center" width="600">
+		<tr>
+			<td colspan="2" align="center" bgcolor="red">INFORMATION</td>
+		</tr>
+		<tr>
+			<td>Mobile Number: </td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Email Id: </td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Club Address: </td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Monday Timing: </td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Tuesday Timing: </td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Wednesday Timing: </td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Thursday Timing: </td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Friday Timing: </td>
+			<td><input></td>
+		</tr>
+		<tr>
+			<td>Saturday Timing: </td>
+			<td><input></td>
+		</tr>
+			<tr>
+			<td>Sunday Timing: </td>
+			<td><input></td>
+		</tr>
+			<tr>
+			<td>Services: </td>
+			<td><textarea></textarea></td>
+		</tr>
+	</table></form>
+</body>
+</html>

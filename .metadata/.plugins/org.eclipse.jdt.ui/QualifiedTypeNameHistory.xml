@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.rs.pkg.update_inventory.OperationType"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="com.royalStoneFitnessClubManagementSystem.dao.UpdateInformationDao"/>
+<fullyQualifiedTypeName name="com.royalStoneFitnessClubManagementSystem.dao.ManageManagersDao"/>
+<fullyQualifiedTypeName name="com.royalStoneFitnessClubManagementSystem.dao.ServicesDao"/>
+</qualifiedTypeNameHistroy>
